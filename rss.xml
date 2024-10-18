@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>عنوان الخلاصة</title>
+    <link>https://example.com</link>
+    <description>وصف الخلاصة</description>
+
+    <!-- مثال على مقال يحتوي على صورة -->
+    <item>
+      <title>دخل تغيير جديد حيز التنفيذ في متجر التطبيقات بالاتحاد الأوروبي</title>
+      <link>https://t.me/MelionTech/2051</link>
+      <description>حيث يُلزم المطورين بتقديم عنوان عام ورقم هاتف يكونان مرئيين للعملاء في المنطقة. يجب على المطورين الآن تزويد آبل بهذه المعلومات.</description>
+      <pubDate>Tue, 18 Oct 2024 12:00:00 GMT</pubDate>
+      <enclosure url="https://i.imgur.com/QVkLb3S.png" type="image/jpeg" />
+    </item>
+
+    <!-- مثال على مقال يحتوي على فيديو -->
+    <item>
+      <title>عنوان الخبر الثاني</title>
+      <link>https://example.com/news2</link>
+      <description>وصف الخبر الثاني مع فيديو.</description>
+      <pubDate>Tue, 18 Oct 2024 12:00:00 GMT</pubDate>
+      <enclosure url="https://example.com/videos/news2.mp4" type="video/mp4" />
+    </item>
+
+    <!-- مثال على مقال يمكن أن يحتوي على إما صورة أو فيديو -->
+    <item>
+      <title>عنوان الخبر الثالث</title>
+      <link>https://example.com/news3</link>
+      <description>وصف الخبر الثالث. قد يحتوي على صورة أو فيديو.</description>
+      <pubDate>Tue, 18 Oct 2024 12:00:00 GMT</pubDate>
+      <!-- استخدم <enclosure> بناءً على نوع المحتوى المتوفر -->
+      <enclosure url="https://example.com/images/news3.jpg" type="image/jpeg" /> <!-- استخدم هذا إذا كان المحتوى صورة -->
+      <!-- أو -->
+      <!-- <enclosure url="https://example.com/videos/news3.mp4" type="video/mp4" /> --> <!-- استخدم هذا إذا كان المحتوى فيديو -->
+    </item>
+  </channel>
+</rss>
